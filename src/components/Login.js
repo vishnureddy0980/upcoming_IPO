@@ -10,9 +10,9 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await axios.post('/api/login', { email, password });
-      // Handle successful login (e.g., store user token in local storage)
+
     } catch (error) {
-      // Handle login error
+      
     }
   };
 
